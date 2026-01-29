@@ -8,6 +8,7 @@ class Clinica (models.Model):
     tipo =   models.CharField(max_length=20)
     direccion = models.CharField(max_length=40)
     ciudad = models.CharField(max_length=30)
+    parroquia = models.CharField(mas_length=30)
     provincia = models.CharField(max_length=30)
        
     def __str__(self):
